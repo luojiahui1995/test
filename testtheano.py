@@ -30,3 +30,4 @@ print("NP time: %f[s], theano time: %f[s] (times should be close when run on CPU
                                            np_end-np_start, t_end-t_start)
 
 print("Result difference: %f" % (np.abs(AB-tAB).max(), ))
+#test push#
