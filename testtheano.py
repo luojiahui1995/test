@@ -15,7 +15,7 @@ AB = A.dot(B)
 
 np_end = time.time()
 
-X, Y = theano.tensor.matrices('XYZ')
+X, Y = theano.tensor.matrices('XY')
 
 mf = theano.function([X, Y], X.dot(Y))
 
